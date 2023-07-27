@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+}
+.scenary{
+    height: 100vh;
+    background-image:url('wp4841249.webp') ;
+    background-size:cover;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    background-attachment: fixed;
+     /*position:relative;to make navigate relative to scenary!!!!!!! */
+}
+.a{
+    position:relative;
+    left:30%;
+    padding:100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+.b{
+    position:absolute;
+    top:100px;
+    left:1200px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+}
+span{
+    text-decoration:underline;
+}
+.navigate{
+  position:absolute;
+  left: 100px;
+  top:50px;
+  display:inline-block;
+}
+a:hover{
+    color: black;
+}
+.navigate:hover{
+    cursor:pointer;
+}
+.profile{
+    text-align: center;
+    /* background-color: pink; */
+    background-image: url('https://wallpaperaccess.com/full/2065149.jpg');
+    background-attachment: fixed;
+    margin-bottom: 0;
+    padding:0;
+    height: 100%;
+}
+hr{
+    border-color: grey;
+    border-width: 5px;
+    border-style: dotted none none none;
+    width:30%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+.skill{
+    display:inline-block;
+    position:relative;
+    bottom:180px;
+    right:100px;
+}
+.ab{
+    position:relative;
+    bottom:100px;
+    right:400px;
+}
+.bb{
+    background-color: blueviolet;
+    height:100px;
+    text-align: center;
+    padding: 50px;
+    margin:0px;
+    /* position: fixed; */
+}
+.btn {
+    background: #c1d3de;
+    background-image: -webkit-linear-gradient(top, #c1d3de, #2490d4);
+    background-image: -moz-linear-gradient(top, #c1d3de, #2490d4);
+    background-image: -ms-linear-gradient(top, #c1d3de, #2490d4);
+    background-image: -o-linear-gradient(top, #c1d3de, #2490d4);
+    background-image: linear-gradient(to bottom, #c1d3de, #2490d4);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Georgia;
+    color: #730073;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width:15%;
+    height:15%;
+    position:relative;
+    bottom:200px;
+    margin:0px;
+  }
+  
+  .btn:hover {
+    background: #d669cb;
+    background-image: -webkit-linear-gradient(top, #d669cb, #a12d97);
+    background-image: -moz-linear-gradient(top, #d669cb, #a12d97);
+    background-image: -ms-linear-gradient(top, #d669cb, #a12d97);
+    background-image: -o-linear-gradient(top, #d669cb, #a12d97);
+    background-image: linear-gradient(to bottom, #d669cb, #a12d97);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nav{
+    position:sticky;
+    top:0;
+  }
